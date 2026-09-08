@@ -1,4 +1,5 @@
 import fastf1 as f1
+import pandas as pd
 def weather_summary(session, prefix):
     w = session.weather_data
     if w is None or w.empty:
